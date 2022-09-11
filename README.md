@@ -41,8 +41,9 @@
  - Activate the virtual environment by the following command:
     - Linux: source my_env/bin/activate
     - windows: https://docs.djangoproject.com/en/4.1/howto/windows/#setting-up-a-virtual-environment
- - Install the requirements by following command:
+ - Install the requirements by one of the following commands:
     - pip install -r requirements.txt
+    - pip install django django-sass social-auth-app-django
   - Run the server by the following command:
     - Linux: python3 manage.py runserver
     - Windows: python manage.py runserver
