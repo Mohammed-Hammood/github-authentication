@@ -127,9 +127,9 @@ STATIC_URL = 'static/'
 STATIC_ROOT = 'static'
 
 
-# STATICFILES_DIRS = [
-#     BASE_DIR / "static",
-# ]
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 
 AUTHENTICATION_BACKENDS = [
     'social_core.backends.github.GithubOAuth2',
