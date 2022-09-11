@@ -58,4 +58,4 @@
   - Finally try it and enjoy! 
 
 # Should look like this:
-<img src='[https://raw.githubusercontent.com/alamiriMd/github-authentication-secret/main/images-demenstrations/image1.png?token=GHSAT0AAAAAABYTQ5HAJRAP3XMM33KUBUW6YY55NPA](https://raw.githubusercontent.com/alamiriMd/github-authentication-secret/main/images-demenstrations/image1.png?token=GHSAT0AAAAAABYTQ5HAZBEBCRECUVCN5KZQYY55UAQ)' style="width:100%;" />
+<img src='https://raw.githubusercontent.com/alamiriMd/github-authentication-secret/main/images-demenstrations/image1.png?token=GHSAT0AAAAAABYTQ5HAJRAP3XMM33KUBUW6YY55NPA' style="width:100%;" />
