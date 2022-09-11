@@ -1,5 +1,7 @@
 # GitHub authentication
- - Web application that authenticates users through third-party applicaiton (GitHub)
+ - Web application that authenticates users through third-party applicaiton (GitHub).
+ - The app is deployed on: https://githubauthentication.pythonanywhere.com
+ - The app generates every 5 minutes a random number and displays it to the authenticated users.
  # Libraries/frameworks installed:
   1. Django (https://www.djangoproject.com/).
   2. Sass  (https://pypi.org/project/django-sass/).
@@ -32,8 +34,8 @@
   - sqlparse==0.4.2
   - urllib3==1.26.12
  # How to run the application:
- - clone this repository to your local machine. 
- - Install virtual environment by the following comand: virtualenv my_env
+ - Clone this repository to your local machine. 
+ - Install virtual environment by the following command: virtualenv my_env
  - Activate the virtual environment by the following command:
     - Linux: source my_env/bin/activate
     - windows: https://docs.djangoproject.com/en/4.1/howto/windows/#setting-up-a-virtual-environment
@@ -51,5 +53,5 @@
       - Authorization callback URL: http://127.0.0.1:8000/
     - Then copy Client Id and paste in the file settings.py in SOCIAL_AUTH_GITHUB_KEY.
     - The copy Client secret and paste it in th file settings.py in SOCIAL_AUTH_GITHUB_SECRET
-    - Finally try it and engoy! 
+  - Finally try it and enjoy! 
      
