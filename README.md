@@ -34,19 +34,16 @@
  # How to run the application:
  - clone this repository to your local machine. 
  - Install virtual environment by the following comand: virtualenv my_env
- - Activate the virtual environment by the following comand:
+ - Activate the virtual environment by the following command:
     - Linux: source my_env/bin/activate
     - windows: https://docs.djangoproject.com/en/4.1/howto/windows/#setting-up-a-virtual-environment
- - Install the requirements by one of the following ways:
-    
-    -(Recommended) pip install -r requirements.txt
-    
-    -(If the above does not work) pip install django django-sass social-auth-app-django
+ - Install the requirements by following command:
+    - pip install -r requirements.txt
   - Run the server by the following command:
     - Linux: python3 manage.py runserver
     - Windows: python manage.py runserver
   - Look at which port the server is running (e.g. http://127.0.0.1:8000/) and open it in the browswer.
-  - Go to your GitHub and create an OAuth app by the following:
+  - Go to your GitHub and create an OAuth app by the following steps:
     - Settings -> Developer settings -> OAuth Apps -> New OAuth Apps:
     - Fill in the fields with the following:
       - Application name: test
