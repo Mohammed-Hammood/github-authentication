@@ -56,4 +56,6 @@
     - Then copy Client Id and paste in the file settings.py in SOCIAL_AUTH_GITHUB_KEY.
     - The copy Client secret and paste it in th file settings.py in SOCIAL_AUTH_GITHUB_SECRET
   - Finally try it and enjoy! 
-     
+
+# Should look like this:
+<img src='https://raw.githubusercontent.com/alamiriMd/github-authentication-secret/main/images-demenstrations/image1.png?token=GHSAT0AAAAAABYTQ5HAJRAP3XMM33KUBUW6YY55NPA' style="width:100%;" />
