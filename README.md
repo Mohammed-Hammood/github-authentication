@@ -1,5 +1,5 @@
 # GitHub authentication
- - Web application that authenticate users through third-party applicaiton (GitHub)
+ - Web application that authenticates users through third-party applicaiton (GitHub)
  # Libraries/frameworks installed:
   1. Django https://www.djangoproject.com/
   2. Sass  https://pypi.org/project/django-sass/
@@ -40,7 +40,7 @@
  - Install the requirements by one of the following ways:
     - pip install -r requirements.txt
     - pip install django django-sass social-auth-app-django
-  - run the server by the following command:
+  - Run the server by the following command:
     - Linux: python3 manage.py runserver
     - Windows: python manage.py runserver
   - Look at which port the server is running (e.g. http://127.0.0.1:8000/) and open it in the browswer.
@@ -51,6 +51,6 @@
       - Homepage URL: http://127.0.0.1:8000/
       - Authorization callback URL: http://127.0.0.1:8000/
     - Then copy Client Id and paste in the file settings.py in SOCIAL_AUTH_GITHUB_KEY.
-    - The copy Client secrets and paste it in th file settings.py in SOCIAL_AUTH_GITHUB_SECRET
+    - The copy Client secret and paste it in th file settings.py in SOCIAL_AUTH_GITHUB_SECRET
     - Finally try it and engoy! 
      
