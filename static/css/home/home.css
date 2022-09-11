@@ -1,0 +1,23 @@
+.home-page-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.home-page-container .card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-page-container .card {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.home-page-container .card .card-header {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.home-page-container .card .card-body {
+  padding: 10px;
+}

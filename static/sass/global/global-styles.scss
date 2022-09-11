@@ -1,0 +1,51 @@
+@import 'mixins.scss';
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'DejaVu Serif', 'Helvetica Neue', 'sans-serif', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans';
+}
+.svg {
+    width:15px;
+    height:15px;
+}
+.content-container {
+    margin-top: 50px;
+}
+.container {
+    padding:10px;
+}
+.center-h {
+    @include CENTRAL_H;
+}
+.center-b {
+    @include CENTRAL_BOTH;
+}
+button {
+    border:none;
+    border-radius:10px;
+    background:rgba(0, 0, 255, 0.8);
+    padding:10px 20px;
+    color:white;
+    text-align:center;
+    @include CENTRAL_BOTH;
+    box-shadow: 0 4px #999;
+    cursor:pointer;
+}
+button:hover {
+    background:rgba(0, 0, 255, 1);
+}
+button:active {
+    transform:translateY(2px);
+}
+button:focus { 
+    outline: 1px solid white;
+}
+.flex {
+    display: flex;
+}
+.hidden {
+    display: none;
+}

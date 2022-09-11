@@ -1,0 +1,22 @@
+@import 'sass/global/mixins.scss';
+
+.home-page-container {
+    width:100%;
+    max-width:600px;
+    .card:hover {
+        box-shadow: 0  0 10px rgba(0, 0, 0, 0.2);
+    } 
+    .card {
+        border:1px solid lightgray;
+        border-radius:10px;
+        width:100%;
+        .card-header {
+            padding:10px;
+            border-bottom:1px solid black;
+        }
+        .card-body {
+            padding:10px;
+            
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.login-page-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.login-page-container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 40px 25px;
+  border-radius: 10px;
+  color: black;
+}
+
+.login-page-container .card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: rgba(0, 0, 255, 0.781);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.login-page-container .card a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-page-container .card a:active {
+  transform: translateY(4px);
+}

@@ -1,0 +1,112 @@
+@keyframes HOVER {
+  0% {
+    background: black;
+  }
+  50% {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    background: black;
+  }
+}
+
+header {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: black;
+  top: 0;
+  position: fixed;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+header .left-content a[class='logo'] {
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header .left-content a[class='logo'] svg {
+  width: 20px;
+  height: 20px;
+}
+
+header .left-content a[class='logo']:hover {
+  background: red;
+  animation: HOVER 2s linear infinite;
+}
+
+header .right-content {
+  height: 50px;
+  padding: 5px 15px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+header .right-content .username:hover {
+  transform: translateY(2px);
+  box-shadow: 0 0 20px white;
+}
+
+header .right-content .username {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  height: 40px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .right-content .dropdown {
+  display: none;
+  flex-direction: column;
+  background: white;
+  position: absolute;
+  color: black;
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-top: 1px;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+header .right-content .dropdown button, header .right-content .dropdown a {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  color: black;
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  font-size: 13px;
+}
+
+header .right-content .dropdown button:hover, header .right-content .dropdown a:hover {
+  background: lightgray;
+}
+
+header .right-content:hover .dropdown {
+  display: flex;
+}

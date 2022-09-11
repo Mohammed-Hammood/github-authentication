@@ -1,0 +1,32 @@
+@import 'sass/global/mixins.scss';
+
+    .profile-page-container {
+        width:100%;
+        max-width:600px;
+        .card:hover {
+            box-shadow: 0  0 10px rgba(0, 0, 0, 0.2);
+        }
+        .card {
+            @include CENTRAL_BOTH;
+            flex-direction:column;
+            border:1px solid lightgray;
+            padding:25px;
+            border-radius:10px;
+            gap:20px;
+            color:black;
+            div {
+                width:100%;
+                border-radius: 0.5rem;
+                @include CENTRAL_V;
+                gap:0.5rem;
+                .username {
+                    background: #2b2a2a;
+                    padding: 2px 10px;
+                    border-radius: 6px;
+                    font-size: 14px;
+                    color: white;
+                  
+                }
+            }
+        }
+    }

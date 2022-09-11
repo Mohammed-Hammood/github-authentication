@@ -1,0 +1,36 @@
+.profile-page-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile-page-container .card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-page-container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 25px;
+  border-radius: 10px;
+  gap: 20px;
+  color: black;
+}
+
+.profile-page-container .card div {
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-page-container .card div .username {
+  background: #2b2a2a;
+  padding: 2px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tz %}
+{% block title %}Home{% endblock %}
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home/home.css' %}" >
+{% endblock %}
+{% block scripts %}
+    <script src="{% static 'js/home/home.js' %}" defer></script>
+{% endblock %}
+{% block body %}
+    <div class="container center-h">
+        <div class="home-page-container">
+                <div class="card">
+                    <div class="card-header center-h">
+                        <p>Random Number</p>
+                    </div>
+                    <div class="card-body center-h">
+                        <p id="random-number-p">{{ query.random_number }}</p><br>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div>
+        <input type="hidden" value="{{ query.last_updated_in_seconds }}" id="last_updated_in_seconds" />
+    </div>
+    <div>
+    </div>
+{% endblock %}
