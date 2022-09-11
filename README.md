@@ -31,7 +31,7 @@
   - social-auth-core==4.3.0
   - sqlparse==0.4.2
   - urllib3==1.26.12
- #How run the application:
+ # How run the application:
  - clone the application to your local machine
  - Install virtual environment by the following comand: virtualenv my_env
  - Activate the virtual environment by the following comand:
