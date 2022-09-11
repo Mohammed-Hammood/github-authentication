@@ -35,7 +35,9 @@
   - urllib3==1.26.12
  # How to run the application:
  - Clone this repository to your local machine. 
- - Install virtual environment by the following command: virtualenv my_env
+ - Install virtual environment by the following command: 
+   - linux: virtualenv my_env
+   - Windows: py -m venv my_env
  - Activate the virtual environment by the following command:
     - Linux: source my_env/bin/activate
     - windows: https://docs.djangoproject.com/en/4.1/howto/windows/#setting-up-a-virtual-environment
