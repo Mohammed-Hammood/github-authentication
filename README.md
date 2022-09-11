@@ -1,9 +1,9 @@
 # GitHub authentication
  - Web application that authenticates users through third-party applicaiton (GitHub)
  # Libraries/frameworks installed:
-  1. Django https://www.djangoproject.com/
-  2. Sass  https://pypi.org/project/django-sass/
-  3. Social auth app https://pypi.org/project/social-auth-app-django/ https://python-social-auth.readthedocs.io/en/latest/configuration/django.html
+  1. Django (https://www.djangoproject.com/).
+  2. Sass  (https://pypi.org/project/django-sass/).
+  3. Social auth app (https://pypi.org/project/social-auth-app-django/), (https://python-social-auth.readthedocs.io/en/latest/configuration/django.html).
  # Languages:
  1. Python3
  2. JavaScript
