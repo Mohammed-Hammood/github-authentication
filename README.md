@@ -31,8 +31,8 @@
   - social-auth-core==4.3.0
   - sqlparse==0.4.2
   - urllib3==1.26.12
- # How run the application:
- - clone the application to your local machine
+ # How to run the application:
+ - clone this repository to your local machine. 
  - Install virtual environment by the following comand: virtualenv my_env
  - Activate the virtual environment by the following comand:
     - Linux: source my_env/bin/activate
@@ -44,4 +44,13 @@
     - Linux: python3 manage.py runserver
     - Windows: python manage.py runserver
   - Look at which port the server is running (e.g. http://127.0.0.1:8000/) and open it in the browswer.
-  
+  - Go to your GitHub and create an OAuth app by the following:
+    - Settings -> Developer settings -> OAuth Apps -> New OAuth Apps:
+    - Fill in the fields with the following:
+      - Application name: test
+      - Homepage URL: http://127.0.0.1:8000/
+      - Authorization callback URL: http://127.0.0.1:8000/
+    - Then copy Client Id and paste in the file settings.py in SOCIAL_AUTH_GITHUB_KEY.
+    - The copy Client secrets and paste it in th file settings.py in SOCIAL_AUTH_GITHUB_SECRET
+    - Finally try it and engoy! 
+     
